@@ -1,7 +1,7 @@
 build --cxxopt='-Wpedantic'
 build --cxxopt='-Werror'
 build --copt='-Werror'
-build --cxxopt='-std=c++23'
+build --cxxopt='-std=c++2a'
 
 
 build:clang --cxxopt='-Werror=inconsistent-missing-override'
